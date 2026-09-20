@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vantage万极｜高审美版 PPT"
+  short_description: "生成文字与画面一体化、具有高级视觉风格的主题型 PPT"
+  default_prompt: "使用 Vantage万极开源的高审美版 PPT Skill，把这个主题做成文字与画面在生成阶段融合的 PPT。"
