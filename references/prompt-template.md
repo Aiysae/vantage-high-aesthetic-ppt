@@ -5,6 +5,7 @@ Use one prompt per slide. Keep the wording exact for all visible text.
 ~~~text
 Use case: productivity-visual
 Asset type: finished <aspect ratio> PowerPoint slide image
+Generation mode: embedded-image — all visible typography must be rendered into the image pixels
 Primary request: create one finished editorial scene where the visual metaphor and all visible text are generated together
 Scene/backdrop: <background and environment>
 Main scene: <3–5 objects, each with a semantic role>
@@ -19,8 +20,8 @@ Text (verbatim):
 3. physical label on <object>: “...”
 4. physical label on <object>: “...”
 Typography: <Chinese type character, size hierarchy, material surface>
-Constraints: every phrase above must be legible simplified Chinese and physically integrated into the scene; no extra words; no logo; no watermark
-Avoid: pasted text boxes, floating UI labels, garbled Chinese, random characters, clutter, collage, cartoon style
+Constraints: every phrase above must be legible simplified Chinese and physically integrated into the scene; text must be part of the finished image rather than a title-safe placeholder; no extra words; no logo; no watermark
+Avoid: a clean image reserved for later typography, pasted text boxes, floating UI labels, title-safe empty space, garbled Chinese, random characters, clutter, collage, cartoon style
 ~~~
 
 ## Example: FDE definition page
